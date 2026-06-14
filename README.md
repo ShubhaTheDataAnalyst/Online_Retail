@@ -6,20 +6,20 @@ The dataset includes invoice details, product information, quantities purchased,
 
 ## Data Cleaning Process Challenges Encountered
 
-•	Missing values were found in the CustomerID and Description columns.
-•	The dataset contained 5,268 duplicate records.
-•	Some records had invalid values such as negative or zero quantities and unit prices.
-•	Invoice dates were stored as text and required conversion to datetime format.
-•	Column names and text values required standardization for consistency.
+1	Missing values were found in the CustomerID and Description columns.
+2	The dataset contained 5,268 duplicate records.
+3	Some records had invalid values such as negative or zero quantities and unit prices.
+4	Invoice dates were stored as text and required conversion to datetime format.
+5	Column names and text values required standardization for consistency.
 
 ## Actions Taken
 
-•	Missing CustomerID values were filled using the mode (most frequent value).
-•	Missing Description values were replaced with "Unknown".
-•	Duplicate records were identified and removed.
-•	Invalid quantity and unit price values were removed.
-•	InvoiceDate was converted to datetime format.
-•	Column names were converted to lowercase and text fields were standardized.
+1	Missing CustomerID values were filled using the mode (most frequent value).
+2	Missing Description values were replaced with "Unknown".
+3	Duplicate records were identified and removed.
+4	Invalid quantity and unit price values were removed.
+5	InvoiceDate was converted to datetime format.
+6	Column names were converted to lowercase and text fields were standardized.
 
 ## Exploratory Data Analysis Findings
 
